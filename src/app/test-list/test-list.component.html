@@ -1,0 +1,5 @@
+<!-- <app-test [test]="myTest"></app-test>
+<app-test [test]="myTest2"></app-test> -->
+@for (test of testLists; track test.title) {
+    <app-test [test]="test"/>
+}

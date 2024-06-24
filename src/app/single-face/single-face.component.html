@@ -1,8 +1,4 @@
-<div class="face-snap-card">
-    <h2>{{ test.title | uppercase }}</h2>
-    <button (click)="onViewFaceSnap()">VIEW</button>
-  </div>
-<!-- <div class="face-snap-card" [ngClass]="{ snapped: userHasSnapped }">
+<div class="face-snap-card" [ngClass]="{ snapped: userHasSnapped }">
     <h2>{{ test.title | uppercase }}</h2>
     <img [src]="test.imageUrl" [alt]="test.title">
     <p>{{ test.description }}</p>
@@ -14,4 +10,5 @@
     } @else {
         <p>Localisation non spécifiée</p>
     }
-</div> -->
+    <a routerLink="/facesnaps">BACK</a>
+</div>
