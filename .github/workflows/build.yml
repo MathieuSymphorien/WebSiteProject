@@ -31,7 +31,7 @@ jobs:
         with:
           args: >
             -Dsonar.projectKey=MathieuSymphorien_WebSiteProject
-            -Dsonar.organization=MathieuSymphorien
+            -Dsonar.organization=mathieusymphorien
 
       - name: Semantic Release
         run: npm run semantic-release
