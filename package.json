@@ -8,8 +8,6 @@
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
     "semantic-release": "semantic-release"
-    "test": "ng test",
-    "semantic-release": "semantic-release"
   },
   "private": true,
   "dependencies": {
@@ -42,6 +40,7 @@
     "husky": "^8.0.3",
     "semantic-release": "^22.0.5"
   },  
+
   "husky": {
     "hooks": {
       "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
