@@ -8,6 +8,8 @@
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
     "semantic-release": "semantic-release"
+    "test": "ng test",
+    "semantic-release": "semantic-release"
   },
   "private": true,
   "dependencies": {
