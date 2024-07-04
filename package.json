@@ -1,6 +1,6 @@
 {
   "name": "my-project",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
@@ -39,8 +39,7 @@
     "commitlint": "^17.7.2",
     "husky": "^8.0.3",
     "semantic-release": "^22.0.5"
-  },  
-
+  },
   "husky": {
     "hooks": {
       "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
