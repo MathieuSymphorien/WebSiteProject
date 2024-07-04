@@ -55,7 +55,7 @@
     "branches": [
       "main"
     ],
-    "repositoryUrl": "https://github.com/MathieuSymphorien/ci-template.git",
+    "repositoryUrl": "https://github.com/MathieuSymphorien/WebSiteProject.git",
     "plugins": [
       "@semantic-release/commit-analyzer",
       "@semantic-release/release-notes-generator",
